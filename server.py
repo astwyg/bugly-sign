@@ -11,7 +11,7 @@ app = Flask(__name__, static_folder='front')
 
 @app.route('/')
 def index():
-    return render_template('index.html', debugMode=True)
+    return render_template('index.html', debugMode=False)
 
 @app.route('/api/sign',  methods=['POST'])
 def sign():
