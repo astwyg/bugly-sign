@@ -4,7 +4,7 @@
 
 ## 如何实现自动打卡
 
-在crontab中, 增加定时任务, 运行signOnce.py <iccid> <phone> <password>
+在crontab中, 增加定时任务, 运行 ` signOnce.py <iccid> <phone> <password> `
 
 ## 如何启动web服务
 
